@@ -1,0 +1,171 @@
+:root {
+    --lilac: rgb(195, 207, 244, 0.3);
+    --ligth-red: #FFD3E2;
+    --ligth-orange: #FEE4CB;
+    --ligth-green: #C8F7DC;
+    --dark-blue: #1f1d2b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    letter-spacing: 0.04rem;
+}
+
+body {
+    font-size: 10px;
+    box-sizing: border-box;
+    background-color: var(--lilac);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+p {
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+h2 {
+    opacity: 0.8;
+}
+
+/*Title-project======================*/
+
+#project-section {
+    margin: 10vw auto;
+    background-color: #FFF;
+    border-radius: 2rem;
+    width: 80vw;
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+}
+
+.project-section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.8;
+    padding-bottom: 1.5rem;
+}
+
+.project-section-line {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.project-section-progress {
+    display: flex;
+}
+
+.project-section-title {
+    margin-right: 0.5rem;
+    line-height: 2rem;
+}
+
+.project-section-title h2 {
+    line-height: 0.5rem;
+}
+
+.project-section-menu button {
+    background-color: transparent;
+    align-content: center;
+    margin-right: 0.4rem;
+    border-radius: 4px;
+}
+
+.project-section-menu .menu {
+    width: 0.7rem;
+    padding: 0.3rem;
+}
+
+.project-section-menu button.active {
+    background: var(--dark-blue);
+    fill: #FFF;
+}
+
+.project-section-menu button:hover {
+    background: var(--lilac);
+}
+
+/*Title-project======================*/
+
+/*Card-project======================*/
+
+.project-section-card {
+    margin: auto;
+    height: 80vw;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.project-section-card .card {
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+    background: var(--ligth-red);
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+}
+
+.project-section-card .menu {
+    width: 1.5rem;
+}
+
+.card .section-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.card .main {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.card .progress-bar{
+    margin-bottom: 2rem;
+}
+.section-card-header h3 {
+    font-weight: 100;
+}
+
+.card .footer{
+    display: flex;
+    align-items: center;
+    border-top: 1px;
+    padding: 0.5rem 0 0.5rem 0;
+    border-style: solid;
+    border-color: #FFF;
+    justify-content: space-between;    
+}
+
+/*Card-project======================*/
+
+@media(min-width:600px) {
+    body {
+        background: black;
+        font-size: 16px;
+    }
+    #project-section {
+        padding: 4rem;
+    }
+    .project-section-header {
+        margin-bottom: 2rem;
+    }
+    .project-section-title {
+        margin-right: 4rem;
+    }
+    .project-section-title h2 {
+        line-height: 2rem;
+    }
+    .project-section-menu .button-menu {
+        margin-right: 1rem;
+    }
+    .project-section-menu .menu {
+        width: 2rem;
+    }
+}
+
+/*Midia======================*/
