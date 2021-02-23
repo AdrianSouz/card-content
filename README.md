@@ -4,8 +4,8 @@ Projeto criado para estudo com base em layout ja criado .
 
  ## Novos recursos!
 ### v0.3
- Criaçao de arquivos padroes git, edição dos arquivos index.html e style.css para a estrutua e estilização base do projeto. Criado tambem o content principal e alguns cards para teste em dispositivo mobile.
- Foram adicionadas as fontes(https://fonts.gstatic.com, Roboto), meta tags, estrutara(semantica) e conteudo html5 com estilização de css3.
+ Criaçao de arquivos padroes git, edição dos arquivos index.html e style.css para a estrutura e estilização base do projeto. Criado tambem o content principal e alguns cards para teste em dispositivo mobile.
+ Foram adicionadas as fontes(https://fonts.gstatic.com, Roboto), meta tags, estrutura(semantica) e conteudo html5 com estilização de css3.
   - Add file .gitignore
   - Add file README.md
   - Add file index.html
