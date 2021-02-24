@@ -14,6 +14,11 @@ Projeto criado para estudo com base em layout ja criado .
   - Add folder css
   - Add folder js
 
+### v0.5
+ Ajuste no problema de responsividade pra computadores, ajuste no tamanho dos cards e finalização do css e html
+  - Edit file index.html
+  - Edit file index.css
+
 ##### Link contato
 ##### Nome: Adrian Souza
 ##### E-mail: adrian.so.silva@gmail.com

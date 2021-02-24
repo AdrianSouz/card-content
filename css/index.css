@@ -19,6 +19,7 @@ body {
     background-color: var(--lilac);
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
+    overflow: hidden;
 }
 
 p {
@@ -36,7 +37,7 @@ h2 {
     margin: 10vw auto;
     background-color: #FFF;
     border-radius: 2rem;
-    width: 80vw;
+    width: min(80vw, 1000px);
     padding: 1.5rem 1.5rem 1rem 1.5rem;
 }
 
@@ -52,6 +53,7 @@ h2 {
     display: flex;
     align-content: center;
     justify-content: space-between;
+    margin-bottom: 1rem;
 }
 
 .project-section-progress {
@@ -94,7 +96,7 @@ h2 {
 
 .project-section-card {
     margin: auto;
-    height: 80vw;
+    max-height: 40vh;
     width: 100%;
     overflow-x: auto;
 }
@@ -104,6 +106,7 @@ h2 {
     background: var(--ligth-red);
     margin-bottom: 2rem;
     border-radius: 2rem;
+    max-height: 300px;
 }
 
 .project-section-card .menu {
@@ -117,6 +120,10 @@ h2 {
     margin-bottom: 2rem;
 }
 
+.section-card-header .menu{
+    width: 1.5rem;
+    background: transparent;
+}
 .card .main {
     display: grid;
     text-align: center;
@@ -145,7 +152,7 @@ h2 {
 
 @media(min-width:600px) {
     body {
-        background: black;
+        /* background: var(--dark-blue); */
         font-size: 16px;
     }
     #project-section {
@@ -165,6 +172,21 @@ h2 {
     }
     .project-section-menu .menu {
         width: 2rem;
+    }
+
+    .project-section-card{
+        height: 30vh;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-column-gap: 2rem;
+    }
+    
+    .project-section-card .card{
+        padding-bottom: 1rem; 
+    }
+
+    .card .main{
+        padding: 2rem 0 2rem 0;
     }
 }
 
